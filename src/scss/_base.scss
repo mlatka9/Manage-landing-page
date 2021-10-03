@@ -1,0 +1,44 @@
+// Sass variables, mixins, and any utility classes, dont generate CSS Code
+
+@use 'sass:map';
+
+$breakpoints: (
+    small: 450px,
+    medium: 800px,
+    large: 1000px
+);
+
+@mixin mq($key) {
+    $size: map.get($breakpoints, $key);
+
+    @media (max-width: $size){
+        @content;
+    }
+}
+
+@mixin text-base() {
+    font-size: 1.6rem;
+    color: var(--color-dark-greyish-blue);
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+@mixin text-header() {
+    color: var(--color-dark-blue);
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+@mixin large-header() {
+    @include text-header;
+    font-size: 4.2rem;
+}
+
+@mixin medium-header() {
+    @include text-header;
+    font-size: 3.5rem;
+}
+
+@mixin small-header() {
+    @include text-header;
+    font-size: 1.6rem;
+}
+

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage landing page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/7e85283d50.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./scss/main.scss">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <header class="header">
+            <a class="logo" href="#">
+                <img src="./resources/logo.svg" alt="Manage landing page logo" class="logo__image">
+            </a>
+
+            <nav class="navigation header__navigation">
+                <ul class="navigation__items">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Pricing</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Product</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">About Us</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Careers</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Community</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="navigation-mobile-wrapper">
+                <nav class="navigation-mobile">
+                    <ul class="navigation-mobile__items">
+                        <li class="navigation-mobile__item">
+                            <a class="navigation-mobile__link" href="#">Pricing</a>
+                        </li>
+                        <li class="navigation-mobile__item">
+                            <a class="navigation-mobile__link" href="#">Product</a>
+                        </li>
+                        <li class="navigation-mobile__item">
+                            <a class="navigation-mobile__link" href="#">About Us</a>
+                        </li>
+                        <li class="navigation-mobile__item">
+                            <a class="navigation-mobile__link" href="#">Careers</a>
+                        </li>
+                        <li class="navigation-mobile__item">
+                            <a class="navigation-mobile__link" href="#">Community</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button type="button" class="button button--primary header__button">Get Started</button>
+            <div type="button" class="hamburger header__hamburger">
+                <span class="hamburger__dash-1"></span>
+                <span class="hamburger__dash-2"></span>
+                <span class="hamburger__dash-3"></span>
+            </div>
+
+            <!-- <div type="button" class="hamburger hamburger--close header__hamburger">
+                <span class="hamburger__dash-1"></span>
+                <span class="hamburger__dash-2"></span>
+                <span class="hamburger__dash-3"></span>
+            </div> -->
+        </header>
+
+        <section class="intro">
+            <div class="intro-wrapper">
+                <h1 class="intro__header">Bring everyone together to build better products.</h1>
+                <p class="intro__info">Manage makes it simple for software teams to plan day-to-day
+                    tasks while keeping the larger team goals in view.</p>
+                <button class="button intro__button button--primary">Get Started</button>
+            </div>
+
+            <img class="intro__image" src="./resources/illustration-intro.svg" alt="aria todo">
+
+        </section>
+
+        <section class="features">
+            <div class="features-wrapper">
+                <h2 class="features__header">What’s different about Manage?</h2>
+                <p class="features__info">Manage provides all the functionality your team needs, without
+                    the complexity. Our software is tailor-made for modern digital
+                    product teams. </p>
+            </div>
+            <ol class="features__list">
+                <li class="feature">
+                    <div class="feature__number">01</div>
+                    <h3 class="feature__title">Track company-wide progress</h3>
+                    <p class="feature__info">See how your day-to-day tasks fit into the wider vision. Go from
+                        tracking progress at the milestone level all the way done to the
+                        smallest of details. Never lose sight of the bigger picture again.</p>
+                </li>
+                <li class="feature">
+                    <div class="feature__number">02</div>
+                    <h3 class="feature__title">Advanced built-in reports</h3>
+                    <p class="feature__info">Set internal delivery estimates and track progress toward company
+                        goals. Our customisable dashboard helps you build out the reports
+                        you need to keep key stakeholders informed.</p>
+                </li>
+                <li class="feature">
+                    <div class="feature__number">03</div>
+                    <h3 class="feature__title">Everything you need in one place</h3>
+                    <p class="feature__info">Stop jumping from one service to another to communicate, store files,
+                        track tasks and share documents. Manage offers an all-in-one team
+                        productivity solution.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section class="reviews">
+
+            <h2 class="reviews__header">What they’ve said</h2>
+
+            <div class="slider swiper reviews__slider">
+                <div class="swiper-wrapper reviews__swiper-wrapper">
+
+
+                    <div class="card slider__card swiper-slide">
+                        <img class="card__photo" src="./resources/avatar-anisha.png" alt="Anisha Li's Photo">
+                        <h3 class="card__name">Anisha Li</h3>
+                        <p class="card__review">“Manage has supercharged our team’s workflow. The ability to maintain
+                            visibility on larger milestones at all times keeps everyone motivated.”</p>
+                    </div>
+
+                    <div class="card slider__card swiper-slide">
+                        <img class="card__photo" src="./resources/avatar-ali.png" alt="Ali Bravo's Photo">
+                        <h3 class="card__name">Ali Bravo</h3>
+                        <p class="card__review">“We have been able to cancel so many other subscriptions since using
+                            Manage. There is no more cross-channel confusion and everyone is much
+                            more focused.”</p>
+                    </div>
+
+                    <div class="card slider__card swiper-slide">
+                        <img class="card__photo" src="./resources/avatar-richard.png" alt="Richard Watts's Photo">
+                        <h3 class="card__name">Richard Watts</h3>
+                        <p class="card__review">“Manage allows us to provide structure and process. It keeps us
+                            organized
+                            and focused. I can’t stop recommending them to everyone I talk to!”</p>
+                    </div>
+
+                    <div class="card slider__card swiper-slide">
+                        <img class="card__photo" src="./resources/avatar-shanai.png" alt="Shanai Gough's Photo">
+                        <h3 class="card__name">Shanai Gough</h3>
+                        <p class="card__review">“Their software allows us to track, manage and collaborate on our
+                            projects
+                            from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <button class="button button--primary reviews__button" type="button">Get Started</button>
+        </section>
+
+        <section class="get-started">
+            <div class="get-started-wrapper">
+                <h2 class="get-started__header">Simplify how your team works today.</h2>
+                <button class="button button--secondary" type="button">Get Started</button>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <a class="logo footer__logo" href="#">
+                    <img src="./resources/logo-light.svg" alt="Manage landing page logo" class="logo__image">
+                </a>
+
+                <ul class="socials footer__socials">
+                    <li class="socials__item">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-square social-icon__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-youtube social-icon__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter social-icon__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-pinterest social-icon__icon"></i>
+                        </a>
+                    </li>
+
+                    <li class="socials__item">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram social-icon__icon"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <nav class="navigation footer__navigation">
+                    <ul class="navigation__items">
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Home</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Pricing</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Products</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">About Us</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Careers</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Community</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form class="form footer__form">
+                    <input type="text" class="form__input" placeholder="Updates in your inbox...">
+                    <button type="submit" class="button form__button button--primary">Go</button>
+                    <span class="form__message"></span>
+                </form>
+                <span class="copy footer__copy">Copyright 2021. All Rights Reserved</span>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/slider.js" type="module"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+// CSS Custom Properties
+
+:root {
+    --color-white: 255, 255, 255;
+    --color-black: 0, 0, 0;
+
+    --color-bright-red: rgb(242, 95, 58);
+    --color-very-bright-red: rgb(255, 154, 129);
+    --color-very-bright-red-shadow: rgba(255, 154, 129, 0.4);
+    --color-super-very-bright-red: rgba(255, 154, 129, 0.15);
+    --color-error: rgb(194, 76, 76);
+    --color-accept: rgb(50, 131, 64);
+
+    --color-dark-blue: hsl(228, 39%, 23%);
+    --color-dark-greyish-blue: hsl(227, 12%, 61%);
+    --color-very-dark-blue: hsl(233, 12%, 13%);
+    --color-very-pale-red: hsl(13, 100%, 96%);
+    --color-light-grey: hsl(0, 0%, 98%);
+
+    --page-width: 80%;
+    --page-max-width: 120rem;
+
+    --animation-time: 250ms;
+}
