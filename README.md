@@ -19,6 +19,7 @@ Users is able to:
 
 ### Screenshots
 
+![Desktop layout](https://user-images.githubusercontent.com/72691985/135771003-ef3069b5-dfb3-487b-9fbe-7be90b90375c.png)
 
 ### Built with
 
