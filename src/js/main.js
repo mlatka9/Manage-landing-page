@@ -63,4 +63,3 @@ navMobileWrapper.addEventListener('click', function(event){
     if(event.target !== this) return;
     closeMobileMenu();
 });
-

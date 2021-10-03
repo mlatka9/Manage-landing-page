@@ -22,7 +22,7 @@
         position: absolute;
         left: 50%;
         top: -35rem;
-        z-index: -10;
+        z-index: -50;
         @include mq(medium) {
             background-size: 100%;
             width: 60rem;
@@ -40,7 +40,7 @@
         position: absolute;
         left: -60rem;
         top: 90rem;
-        z-index: -10;
+        z-index: -50;
         @include mq(medium) {
             background-size: 100%;
             width: 50rem;
@@ -121,6 +121,7 @@
         max-width: 500px;
         margin: auto 0;
         margin-right: auto;
+        z-index: -10;
         @include mq(medium) {
             grid-row: 1;
             margin: 0 auto;
@@ -142,11 +143,9 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     padding-top: 10rem;
     gap: 5rem;
     max-width: var(--page-max-width);
-
     @include mq(large) {
         gap: 1.5rem;
     }
@@ -203,7 +202,6 @@
         }
     }
     &__swiper-wrapper {
-        // height: 320px;
         height: fit-content;
     }
     &__button {
@@ -256,10 +254,7 @@
             "logo navigation navigation form"
             "socials navigation navigation copy";
         align-items: start;
-
         @include mq(medium) {
-            // align-items: center;
-            // justify-items: center;
             grid-template-columns: 1fr;
             grid-template-areas:
                 "form"
@@ -277,10 +272,8 @@
             height: 17rem;
             @include mq(medium) {
                 align-content: space-around;
-                // width: 25rem;
                 height: 15rem;
                 margin: 0 auto;
-                // gap: 1rem 9rem;
             }
         }
         .navigation__link {
@@ -330,11 +323,12 @@
     padding-top: 15rem;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.438) 85%, rgba(255, 255, 255, 0) 98%);
-    z-index: 50;
+    z-index: -1;
     &--open{
         opacity: 1;
         @include mq(medium) {
             display: flex;
+            z-index: 50;
         }   
     }
     @include mq(medium) {

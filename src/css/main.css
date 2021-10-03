@@ -95,7 +95,7 @@ select {
   position: absolute;
   left: 50%;
   top: -35rem;
-  z-index: -10;
+  z-index: -50;
 }
 @media (max-width: 800px) {
   .page::before {
@@ -115,7 +115,7 @@ select {
   position: absolute;
   left: -60rem;
   top: 90rem;
-  z-index: -10;
+  z-index: -50;
 }
 @media (max-width: 800px) {
   .page::after {
@@ -214,6 +214,7 @@ select {
   max-width: 500px;
   margin: auto 0;
   margin-right: auto;
+  z-index: -10;
 }
 @media (max-width: 800px) {
   .intro__image {
@@ -449,7 +450,7 @@ select {
   padding-top: 15rem;
   background: black;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.438) 85%, rgba(255, 255, 255, 0) 98%);
-  z-index: 50;
+  z-index: -1;
 }
 .navigation-mobile-wrapper--open {
   opacity: 1;
@@ -457,6 +458,7 @@ select {
 @media (max-width: 800px) {
   .navigation-mobile-wrapper--open {
     display: flex;
+    z-index: 50;
   }
 }
 @media (max-width: 800px) {
@@ -821,7 +823,7 @@ select {
   --color-light-grey: hsl(0, 0%, 98%);
   --page-width: 80%;
   --page-max-width: 120rem;
-  --animation-time: 250ms;
+  --animation-time: 350ms;
 }
 
 /*# sourceMappingURL=main.css.map */
