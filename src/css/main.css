@@ -521,7 +521,7 @@ select {
   color: var(--color-dark-blue);
 }
 .navigation__link:hover {
-  color: var(--color-dark-blue);
+  color: var(--color-bright-red);
 }
 
 .navigation-mobile {

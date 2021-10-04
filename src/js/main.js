@@ -28,6 +28,11 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
+function f() {
+
+}
+
+
 const hamburger = document.querySelector('.hamburger');
 const navMobileWrapper = document.querySelector('.navigation-mobile-wrapper');
 const navMobile = document.querySelector('.navigation-mobile');
